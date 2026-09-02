@@ -6,6 +6,7 @@
 
 ## References and Resources
 List any resources used here, or simply put `N/A` if not applicable.  
+https://www.w3schools.com/kotlin/kotlin_classes.php  
 https://techielearn.com/tutorials/kotlin-app-development/setting-up-android-studio-with-kotlin/creating-a-kotlin-project
 
 ## Verbal Collaboration
