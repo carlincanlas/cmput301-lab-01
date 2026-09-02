@@ -27,7 +27,6 @@ class MainActivity : ComponentActivity() {
 
         val happy = Happy("09-02-2026")
         val hungry = Hungry("09-02-2026s")
-        val sept2Moods = mutableListOf(happy, hungry)
 
         setContent {
             PetShopTheme {
