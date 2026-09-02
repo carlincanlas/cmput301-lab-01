@@ -28,31 +28,5 @@ class MainActivity : ComponentActivity() {
         val happy = Happy("09-02-2026")
         val hungry = Hungry("09-02-2026s")
 
-        setContent {
-            PetShopTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }
-        }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    PetShopTheme {
-        Greeting("Android")
     }
 }
